@@ -1,0 +1,29 @@
+
+#### Switch inputs
+#Net "Cin" LOC = "G18" ;
+#Net "A" LOC = "K18" ;
+#Net "B" LOC = "H18" ;
+#
+#### LED outputs
+#Net "Cout" LOC = "J15";
+#Net "S" LOC = "J14";
+
+### Toggle inputs
+NET "B(0)" LOC = "G18";
+NET "B(1)" LOC = "H18";
+NET "B(2)" LOC = "K18";
+NET "B(3)" LOC = "K17";
+NET "A(0)" LOC = "L14";
+NET "A(1)" LOC = "L13";
+NET "A(2)" LOC = "N17";
+NET "A(3)" LOC = "R17";
+
+### LED outputs
+NET "S(0)" LOC = "J14";
+NET "S(1)" LOC = "J15";
+NET "S(2)" LOC = "K15";
+NET "S(3)" LOC = "K14";
+NET "Overflow" LOC = "R4";
+
+### Button inputs
+NET "Button" LOC = "B18";
