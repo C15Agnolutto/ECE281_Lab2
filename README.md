@@ -23,6 +23,22 @@ ECE281_Lab2
 
 
 ### Pre-Lab Analysis
-
 While creating my truth table I initially made the mistake in the last row and last column; I had put a 0 instead of
 a 1 and didn't immediately catch it until I was writing my equations out. I simplified my boolean equations down and drew out my schematic without any issues. I created my Full_Adder.vhd using a behavioral style. I made a parse error by using just a "=" as opposed to "<=" when programming out the circuit. I made my Full_Adder_Testbench file without any errors. When I ran the ISimulation the first time the results did not match my truth table. I went back and double checked my circuit design in the Full_Adder.vhd file. I found that when I incorrectly assigned the or3 as an and3 and fixed it (G<= D or E or F). I found no further issues and got the expected results when I reran the ISimulation. 
+
+
+
+### Four Bit Adder/Subtractor Final Schematic
+![schem2] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/final_schematic.JPG)
+
+
+### Four Bit Adder/Subtractor Testbench
+
+
+
+### Post-Lab Analysis
+
+
+
+
+
