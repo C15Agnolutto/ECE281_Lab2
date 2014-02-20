@@ -1,29 +1,29 @@
 
 #### Switch inputs
-#Net "Cin" LOC = "G18" ;
-#Net "A" LOC = "K18" ;
-#Net "B" LOC = "H18" ;
+#Net "Cin" LOC = "G18" ; # Type = Input, Switch name = SW0
+#Net "A" LOC = "K18" ; # Type = Input, Switch name = SW2
+#Net "B" LOC = "H18" ; # Type = Input, Switch name = SW1
 #
 #### LED outputs
-#Net "Cout" LOC = "J15";
-#Net "S" LOC = "J14";
+#Net "Cout" LOC = "J15"; # Type = Output, Switch name = LD1
+#Net "S" LOC = "J14"; # Type = Output, Switch name = LD0
 
 ### Toggle inputs
-NET "B(0)" LOC = "G18";
-NET "B(1)" LOC = "H18";
-NET "B(2)" LOC = "K18";
-NET "B(3)" LOC = "K17";
-NET "A(0)" LOC = "L14";
-NET "A(1)" LOC = "L13";
-NET "A(2)" LOC = "N17";
-NET "A(3)" LOC = "R17";
+NET "B(0)" LOC = "G18"; # Type = Input, Switch name = SW0
+NET "B(1)" LOC = "H18";# Type = Input, Switch name = SW1
+NET "B(2)" LOC = "K18";# Type = Input, Switch name = SW2
+NET "B(3)" LOC = "K17";# Type = Input, Switch name = SW3
+NET "A(0)" LOC = "L14";# Type = Input, Switch name = SW4
+NET "A(1)" LOC = "L13";# Type = Input, Switch name = SW5
+NET "A(2)" LOC = "N17";# Type = Input, Switch name = SW6
+NET "A(3)" LOC = "R17";# Type = Input, Switch name = SW7
 
 ### LED outputs
-NET "S(0)" LOC = "J14";
-NET "S(1)" LOC = "J15";
-NET "S(2)" LOC = "K15";
-NET "S(3)" LOC = "K14";
-NET "Overflow" LOC = "R4";
+NET "S(0)" LOC = "J14";# Type = Output, Switch name = LD0
+NET "S(1)" LOC = "J15";# Type = Output, Switch name = LD1
+NET "S(2)" LOC = "K15";# Type = Output, Switch name = LD2
+NET "S(3)" LOC = "K14";# Type = Output, Switch name = LD3
+NET "Overflow" LOC = "R4";# Type = Output, Switch name = LD7
 
 ### Button inputs
-NET "Button" LOC = "B18";
+NET "Button" LOC = "B18";# Type = Input, Switch name = BTN0
