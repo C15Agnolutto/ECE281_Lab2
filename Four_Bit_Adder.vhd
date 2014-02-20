@@ -33,15 +33,18 @@ entity Four_Bit_Adder is
     Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
            B : in  STD_LOGIC_VECTOR (3 downto 0);
            S : out  STD_LOGIC_VECTOR (3 downto 0);
-					Overflow : out STD_LOGIC;
+					Overflow : out STD_LOGIC; 
 					Button : in STD_LOGIC);
 end Four_Bit_Adder;
 
 architecture Structural of Four_Bit_Adder is
 
+--variables established to use in assignment statements
 signal C : std_logic;
 signal Carry, X : STD_LOGIC_VECTOR(3 downto 0);
 
+
+	--component created
 	component Full_Adder
 		port(
 			A:in std_logic;
@@ -54,10 +57,11 @@ signal Carry, X : STD_LOGIC_VECTOR(3 downto 0);
 
 begin
 
-	 X <= not B when (Button = '1') else B;
-	 Carry(0) <= ('1') when (Button = '1') else ('0');
+	 X <= not B when (Button = '1') else B; --subtraction button established
+	 --carry assignment created
+	 Carry(0) <= ('1') when (Button = '1') else ('0'); 
 	 
-
+	--established assignment statements for the different states
 	 Bit0: Full_Adder Port Map(
 		A(0),X(0),Carry(0),Carry(1),S(0));
 
@@ -70,7 +74,7 @@ begin
 	 Bit3: Full_Adder Port Map(
 		A(3),X(3),Carry(3),C,S(3));
 
-Overflow <= C xor Carry(3);
+Overflow <= C xor Carry(3);--variable to indicate oveflow established
 
 end Structural;
 
