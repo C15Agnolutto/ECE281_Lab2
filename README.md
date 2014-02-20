@@ -36,7 +36,7 @@ a 1 and didn't immediately catch it until I was writing my equations out. I simp
 ![add] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/Adder_Testbench.PNG)
 
 
-### four Bit Subtractor Simulation
+### Four Bit Subtractor Simulation
 ![sub] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/Subtractor_Testbench.PNG)
 
 
