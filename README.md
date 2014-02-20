@@ -18,7 +18,7 @@ ECE281_Lab2
 ![schem] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/Schematic.JPG)
 
 
-### Full-Adder Testbench Waveform 
+### Full-Adder Simulation 
 ![waveform] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/Full_Adder_ISim.PNG)
 
 
@@ -32,7 +32,12 @@ a 1 and didn't immediately catch it until I was writing my equations out. I simp
 ![schem2] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/final_schematic.JPG)
 
 
-### Four Bit Adder/Subtractor Testbench
+### Four Bit Adder Simulation
+![add] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/Adder_Testbench.PNG)
+
+
+### four Bit Subtractor Simulation
+![sub] (https://raw2.github.com/C15Agnolutto/ECE281_Lab2/master/Subtractor_Testbench.PNG)
 
 
 
