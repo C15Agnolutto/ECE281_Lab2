@@ -39,15 +39,18 @@ end Full_Adder;
 
 architecture Behavioral of Full_Adder is
 
+--internal signals declared
 signal D,E,F,G,H: std_logic;
 
 begin
 
+--behavioral assignments that follows my schematic
 D <= A and B;
 E <= A and Cin;
 F <= B and Cin;
 G <= D or E or F;
 H <= A xor B xor Cin;
+--two outs Cout and S
 Cout <= G;
 S <= H;
 
